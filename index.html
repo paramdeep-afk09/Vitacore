@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VitaCore — Departmental Club, Faculty of Allied Health Sciences, CGC University</title>
+<meta name="description" content="VitaCore is the departmental club of the Faculty of Allied Health Sciences at CGC University, founded in 2025. Beyond the classroom, into the experience." />
+<link rel="icon" href="assets/images/Vitacore.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="script" href="script.js" />
+</head>
+<body>
+
+<div id="scroll-progress"></div>
+
+<!-- ============================= NAV ============================= -->
+<nav class="nav" id="nav">
+  <div class="wrap nav__row">
+    <a href="#top" class="nav__logo"><img src="assets/images/Vitacore.png" alt="VitaCore logo" /></a>
+    <div class="nav__links">
+      <a href="#about">About</a>
+      <a href="#whatwedo">What We Do</a>
+      <a href="#team">Team</a>
+      <a href="#events">Events</a>
+      <a href="#gallery">Gallery</a>
+    </div>
+    <div class="nav__cta">
+      <a href="#join" class="nav__join">JOIN VITACORE
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div class="nav__mobile" id="mobile-nav">
+  <a href="#about">About</a>
+  <a href="#whatwedo">What We Do</a>
+  <a href="#team">Team</a>
+  <a href="#events">Events</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#join" class="nav__join">JOIN VITACORE →</a>
+</div>
+
+<!-- ============================= HERO ============================= -->
+<header class="hero" id="top">
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <!-- doodle: DNA helix -->
+  <svg class="doodle doodle-float" style="top:14%; left:4%; width:70px; height:140px;" viewBox="0 0 60 140" fill="none" aria-hidden="true">
+    <path d="M8 4C8 24 52 24 52 44C52 64 8 64 8 84C8 104 52 104 52 124" stroke="var(--red)" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M8 4C8 24 8 24 8 24" stroke="var(--charcoal)" stroke-width="1" opacity=".3"/>
+    <line x1="12" y1="14" x2="48" y2="14" stroke="var(--charcoal)" stroke-width="1" opacity=".25"/>
+    <line x1="14" y1="34" x2="46" y2="34" stroke="var(--charcoal)" stroke-width="1" opacity=".25"/>
+    <line x1="12" y1="54" x2="48" y2="54" stroke="var(--charcoal)" stroke-width="1" opacity=".25"/>
+    <line x1="14" y1="74" x2="46" y2="74" stroke="var(--charcoal)" stroke-width="1" opacity=".25"/>
+    <line x1="12" y1="94" x2="48" y2="94" stroke="var(--charcoal)" stroke-width="1" opacity=".25"/>
+    <line x1="14" y1="114" x2="46" y2="114" stroke="var(--charcoal)" stroke-width="1" opacity=".25"/>
+  </svg>
+
+  <div class="wrap hero__row">
+    <div class="hero__content">
+      <div class="hero__eyebrow-row">
+        <span class="eyebrow">Departmental Club</span>
+        <span class="hero__est">EST. 2025</span>
+      </div>
+      <h1>VITA<span>CORE</span></h1>
+      <div class="hero__sub">
+        <span><b>Faculty of Allied Health Sciences</b></span>
+        <span>·</span>
+        <span><b>CGC University</b></span>
+      </div>
+      <p class="hero__tagline">Beyond the Classroom. Into the Experience.</p>
+      <p class="hero__desc">VitaCore is the departmental club of the Faculty of Allied Health Sciences at CGC University, founded in 2025. More than an event platform, VitaCore creates opportunities for students to step beyond the classroom through educational trips, workshops, campus activities, competitions and collaborative experiences — turning curiosity into participation and everyday university life into something worth remembering.</p>
+      <div class="hero__actions">
+        <a href="#join" class="btn btn-primary">Join VitaCore</a>
+        <a href="#about" class="btn btn-ghost">Explore</a>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="hero__ring" aria-hidden="true"></div>
+      <div class="hero__logo-plate">
+        <img src="assets/images/Vitacore.png" alt="VitaCore logo" />
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================= ABOUT ============================= -->
+<section id="about" class="about">
+  <div class="wrap about__row">
+    <div>
+      <p class="eyebrow">About VitaCore</p>
+      <h2 class="about__lead">
+        <span class="line">More than</span>
+        <span class="line accent">a club.</span>
+      </h2>
+    </div>
+    <div>
+      <p class="about__desc">VitaCore is the departmental club of the Faculty of Allied Health Sciences at CGC University, founded in 2025. More than an event platform, VitaCore creates opportunities for students to step beyond the classroom through educational trips, workshops, campus activities, competitions and collaborative experiences — turning curiosity into participation and everyday university life into something worth remembering.</p>
+      <div class="about__facts">
+        <div class="about__fact"><b>Founded</b><span>2025</span></div>
+        <div class="about__fact"><b>Faculty</b><span>Allied Health Sciences</span></div>
+        <div class="about__fact"><b>University</b><span>CGC University</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap pillars">
+    <div class="pillar"><span class="pillar__num">01</span><h4>Learn</h4><p>Workshops, expert sessions and hands-on exposure to real biotechnology practice.</p></div>
+    <div class="pillar"><span class="pillar__num">02</span><h4>Experience</h4><p>Educational trips and campus activities that turn ideas into memory.</p></div>
+    <div class="pillar"><span class="pillar__num">03</span><h4>Connect</h4><p>A community of students, faculty and peers building something together.</p></div>
+    <div class="pillar"><span class="pillar__num">04</span><h4>Create</h4><p>Competitions and challenges that turn curiosity into participation.</p></div>
+  </div>
+</section>
+
+<!-- ============================= WHAT WE DO ============================= -->
+<section id="whatwedo" class="whatwedo">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">What We Do</p>
+      <h2>Where curiosity becomes experience</h2>
+      <p>From the classroom to the real world, VitaCore creates opportunities to learn, explore and participate.</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="wwd-grid">
+      <div class="wwd-card">
+        <svg class="wwd-card__icon" viewBox="0 0 48 48" fill="none"><path d="M18 6h12M20 6v10l-9 18a4 4 0 0 0 3.6 5.8h18.8A4 4 0 0 0 37 34l-9-18V6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M16 30h16" stroke="currentColor" stroke-width="1.6"/></svg>
+        <h3>Educational Trips</h3>
+        <p>Explore biotechnology through educational and exposure-oriented visits to leading research institutions and industry hubs.</p>
+      </div>
+      <div class="wwd-card">
+        <svg class="wwd-card__icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="20" r="10" stroke="currentColor" stroke-width="1.6"/><path d="M24 30v10M18 44h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M19 20a5 5 0 0 1 5-5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <h3>Workshops &amp; Expert Sessions</h3>
+        <p>Interactive learning, professional insight and practical exposure led by industry professionals and academics.</p>
+      </div>
+      <div class="wwd-card">
+        <svg class="wwd-card__icon" viewBox="0 0 48 48" fill="none"><path d="M24 6l4 8 9 1-6.5 6.3L32 30l-8-4.5L16 30l1.5-8.7L11 15l9-1 4-8z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+        <h3>Competitions &amp; Challenges</h3>
+        <p>Opportunities to participate, collaborate and showcase ideas in a spirit of friendly innovation.</p>
+      </div>
+      <div class="wwd-card">
+        <svg class="wwd-card__icon" viewBox="0 0 48 48" fill="none"><path d="M8 34c6-16 26-16 32 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="24" cy="16" r="6" stroke="currentColor" stroke-width="1.6"/><path d="M6 40h36" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        <h3>Campus Events</h3>
+        <p>Student-centered activities that bring the VitaCore community together throughout the year.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FACULTY ============================= -->
+<section id="faculty" class="faculty">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Guided By Faculty</p>
+      <h2>The people behind VitaCore</h2>
+      <p>Guided by faculty. Driven by students.</p>
+    </div>
+
+    <div class="faculty-grid">
+      <div class="faculty-card reveal">
+        <div class="faculty-card__photo"><img src="assets/images/sheetal_mam.jpg" alt="Dr. Sheetal Vats" /></div>
+        <div class="faculty-card__body">
+          <h3>Dr. Sheetal Vats</h3>
+          <p class="faculty-card__role">Club &amp; Event Coordinator</p>
+          <p class="faculty-card__meta">Assistant Professor<br/>Department of Biotechnology</p>
+          <button class="faculty-card__more" data-modal-trigger="modal-faculty-1">
+            View more
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="faculty-card reveal">
+        <div class="faculty-card__photo"><img src="assets/images/Parul_mam.jpg" alt="Dr. Parul Narwal" /></div>
+        <div class="faculty-card__body">
+          <h3>Dr. Parul Narwal</h3>
+          <p class="faculty-card__role">Club &amp; Event Coordinator</p>
+          <p class="faculty-card__meta">Assistant Professor<br/>Department of Biotechnology</p>
+          <button class="faculty-card__more" data-modal-trigger="modal-faculty-2">
+            View more
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Faculty modal templates -->
+<template id="modal-faculty-1">
+  <div class="modal__photo"><img src="assets/images/sheetal_mam.jpg" alt="Dr. Sheetal Vats" /></div>
+  <h3>Dr. Sheetal Vats</h3>
+  <p class="role">Club &amp; Event Coordinator</p>
+  <p class="meta">Assistant Professor, Department of Biotechnology, Faculty of Allied Health Sciences, CGC University.<br/><br/><em>Full biography not yet supplied — replace this placeholder with an approved faculty profile.</em></p>
+</template>
+<template id="modal-faculty-2">
+  <div class="modal__photo"><img src="assets/images/Parul_mam.jpg" alt="Dr. Parul Narwal" /></div>
+  <h3>Dr. Parul Narwal</h3>
+  <p class="role">Club &amp; Event Coordinator</p>
+  <p class="meta">Assistant Professor, Department of Biotechnology, Faculty of Allied Health Sciences, CGC University.<br/><br/><em>Full biography not yet supplied — replace this placeholder with an approved faculty profile.</em></p>
+</template>
+
+<!-- ============================= TEAM ============================= -->
+<!--
+  NOTE FOR EDITOR: The brief's authoritative structure calls for 6 Public
+  Relations Officers and an "Event Coordinator — Google Sheets" group of 3.
+  The supplied source file only explicitly labels 4 people as Public
+  Relations Officer, and does not label anyone "Google Sheets". Rather than
+  invent that mapping, the 5 remaining supplied members are kept under their
+  own verified source titles (Secretary, Notice Board Coordinator, Event
+  Coordinator – Management) below. Reconcile with the latest roster and
+  relabel as needed.
+-->
+<section id="team" class="team">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">The Team</p>
+      <h2>The people who make it happen</h2>
+      <p>Different roles. One team. One VitaCore.</p>
+    </div>
+
+    <div class="team-leads reveal">
+      <div class="team-lead">
+        <div class="team-lead__photo"><img src="assets/images/Palakshi.jpg" alt="Palakshi" /></div>
+        <div><h4>Palakshi</h4><span>President</span></div>
+      </div>
+      <div class="team-lead">
+        <div class="team-lead__photo"><img src="assets/images/Manjot.jpg" alt="Manjot" /></div>
+        <div><h4>Manjot</h4><span>Vice President</span></div>
+      </div>
+    </div>
+
+    <!-- Core -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Core Team</h4><span class="team-tier__count">4 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Rimjhim.jpg" alt="Rimjhim" /></div><p class="member__name">Rimjhim</p><p class="member__role">Joint Secretary</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Khushmanpreet.jpg" alt="Khushmanpreet" /></div><p class="member__name">Khushmanpreet</p><p class="member__role">Joint Secretary</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Videsha.jpg" alt="Vidhisha" /></div><p class="member__name">Vidhisha</p><p class="member__role">Treasurer</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Divyansh.jpg" alt="Divyansh" /></div><p class="member__name">Divyansh</p><p class="member__role">Secretary</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Public Relations -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Public Relations Officers</h4><span class="team-tier__count">4 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Gorangi.jpg" alt="Gourangi Gupta" /></div><p class="member__name">Gourangi Gupta</p><p class="member__role">PR Officer</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Nitin.jpg" alt="Nitin Kumar Sharma" /></div><p class="member__name">Nitin Kumar Sharma</p><p class="member__role">PR Officer</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Vivek.jpg" alt="Vivek" /></div><p class="member__name">Vivek</p><p class="member__role">PR Officer</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Param.jpg" alt="Paramdeep Singh" /></div><p class="member__name">Paramdeep Singh</p><p class="member__role">PR Officer</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notice Board -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Notice Board Coordinators</h4><span class="team-tier__count">2 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Nisha.jpg" alt="Nisha Gupta" /></div><p class="member__name">Nisha Gupta</p><p class="member__role">Notice Board Coordinator</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Prabhdeep.jpg" alt="Prabhdeep Kaur" /></div><p class="member__name">Prabhdeep Kaur</p><p class="member__role">Notice Board Coordinator</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event Coordinator - Host -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Event Coordinator — Host</h4><span class="team-tier__count">2 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Upasana.jpg" alt="Upasna Rana" /></div><p class="member__name">Upasna Rana</p><p class="member__role">Event Coordinator (Host)</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Priya.jpg" alt="Priya" /></div><p class="member__name">Priya</p><p class="member__role">Event Coordinator (Host)</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event Coordinator - Management -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Event Coordinator — Management</h4><span class="team-tier__count">2 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Harshnoor.jpg" alt="Harshnoor Kaur" /></div><p class="member__name">Harshnoor Kaur</p><p class="member__role">Event Coordinator (Mgmt)</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Kashish.jpg" alt="Kashish" /></div><p class="member__name">Kashish</p><p class="member__role">Event Coordinator (Mgmt)</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Event Coordinator - Social Media -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Event Coordinator — Social Media</h4><span class="team-tier__count">4 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Bhavya.jpg" alt="Bhabya" /></div><p class="member__name">Bhabya</p><p class="member__role">Social Media</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Kajal.jpg" alt="Kajal" /></div><p class="member__name">Kajal</p><p class="member__role">Social Media</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Soyam.png" alt="Soyam" /></div><p class="member__name">Soyam</p><p class="member__role">Social Media</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Mannat.jpg" alt="Mannat" /></div><p class="member__name">Mannat</p><p class="member__role">Social Media</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Management Team -->
+    <div class="team-tier">
+      <button class="team-tier__head" aria-expanded="false">
+        <span class="team-tier__label"><h4>Management Team</h4><span class="team-tier__count">4 members</span></span>
+        <svg class="team-tier__chevron" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <div class="team-tier__panel">
+        <div class="team-tier__panel-inner">
+          <div class="team-tier__cards">
+            <div class="member"><div class="member__photo"><img src="assets/images/Piyush.jpg" alt="Piyush Bansal" /></div><p class="member__name">Piyush Bansal</p><p class="member__role">Management</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Utkarsh.jpg" alt="Utkarsh" /></div><p class="member__name">Utkarsh</p><p class="member__role">Management</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Disha.jpg" alt="Disha" /></div><p class="member__name">Disha</p><p class="member__role">Management</p></div>
+            <div class="member"><div class="member__photo"><img src="assets/images/Rainam.jpg" alt="Rainam" /></div><p class="member__name">Rainam</p><p class="member__role">Management</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================= EVENTS ============================= -->
+<section id="events" class="events">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Our Events</p>
+      <h2>From classroom to experience</h2>
+      <p>From learning beyond the classroom to creating experiences together.</p>
+    </div>
+
+    <div class="events-grid">
+      <div class="event-card reveal" data-modal-trigger="modal-event-1">
+        <div class="event-card__img"><img src="assets/images/Cafe.png" alt="Campus Ferment Café" /></div>
+        <div class="event-card__body">
+          <p class="event-card__cat">Campus Event</p>
+          <h3>Campus Ferment Café</h3>
+          <p>An engaging campus experience centered on fermented food and drink, connecting students and faculty over science and conversation.</p>
+          <span class="event-card__link">Explore <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </div>
+
+      <div class="event-card reveal" data-modal-trigger="modal-event-2">
+        <div class="event-card__img"><img src="assets/images/Trip.png" alt="Educational Visit" /></div>
+        <div class="event-card__body">
+          <p class="event-card__cat">Educational Trip</p>
+          <h3>Educational Visit</h3>
+          <p>Exposure-oriented visits to leading research institutions and industry hubs in biotechnology.</p>
+          <span class="event-card__link">Explore <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </div>
+
+      <div class="event-card reveal" data-modal-trigger="modal-event-3">
+        <div class="event-card__img"><img src="assets/images/Technical.png" alt="Guidance Sessions" /></div>
+        <div class="event-card__body">
+          <p class="event-card__cat">Guidance</p>
+          <h3>Guidance Sessions</h3>
+          <p>Personalised guidance and mentorship from industry experts and faculty on academic and career paths in biotechnology.</p>
+          <span class="event-card__link">Explore <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </div>
+
+      <div class="event-card reveal" data-modal-trigger="modal-event-4">
+        <div class="event-card__img"><img src="assets/images/Ferment.png" alt="Workshops" /></div>
+        <div class="event-card__body">
+          <p class="event-card__cat">Workshop</p>
+          <h3>Workshops</h3>
+          <p>Hands-on sessions building practical skills and knowledge across the many disciplines of biotechnology.</p>
+          <span class="event-card__link">Explore <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Event modal templates -->
+<template id="modal-event-1">
+  <img class="event-img" src="assets/images/Cafe.png" alt="Campus Ferment Café" />
+  <p class="role">Campus Event</p>
+  <h3>Campus Ferment Café</h3>
+  <p class="meta">An engaging campus experience centered on fermented food and drink, connecting students and faculty over science and conversation. <em>Exact dates not yet supplied — add when available.</em></p>
+</template>
+<template id="modal-event-2">
+  <img class="event-img" src="assets/images/Trip.png" alt="Educational Visit" />
+  <p class="role">Educational Trip</p>
+  <h3>Educational Visit</h3>
+  <p class="meta">Exposure-oriented visits to leading research institutions and industry hubs in biotechnology. <em>Exact dates not yet supplied — add when available.</em></p>
+</template>
+<template id="modal-event-3">
+  <img class="event-img" src="assets/images/Technical.png" alt="Guidance Sessions" />
+  <p class="role">Guidance</p>
+  <h3>Guidance Sessions</h3>
+  <p class="meta">Personalised guidance and mentorship from industry experts and faculty on academic and career paths in biotechnology. <em>Exact dates not yet supplied — add when available.</em></p>
+</template>
+<template id="modal-event-4">
+  <img class="event-img" src="assets/images/Ferment.png" alt="Workshops" />
+  <p class="role">Workshop</p>
+  <h3>Workshops</h3>
+  <p class="meta">Hands-on sessions building practical skills and knowledge across the many disciplines of biotechnology. <em>Exact dates not yet supplied — add when available.</em></p>
+</template>
+
+<!-- ============================= GALLERY ============================= -->
+<section id="gallery" class="gallery">
+  <div class="wrap">
+    <div class="section-head center reveal">
+      <p class="eyebrow">Moments of VitaCore</p>
+      <h2>Moments of VitaCore</h2>
+      <p>A glimpse into the experiences, events and memories we've created together.</p>
+    </div>
+
+    <div class="gallery-wall" id="gallery-wall">
+      <!-- 23 supplied event photographs -->
+      <figure><img src="assets/images/Event_1.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_2.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_3.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_4.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_5.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_6.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_7.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_8.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_9.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_10.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_11.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_12.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_13.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_14.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_15.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_16.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_17.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_18.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_19.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_20.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_21.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_22.png" loading="lazy" alt="VitaCore event moment" /></figure>
+      <figure><img src="assets/images/Event_23.png" loading="lazy" alt="VitaCore event moment" /></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= COMPLETE JOURNEY ============================= -->
+<section class="journey">
+  <div class="wrap">
+    <p class="eyebrow">The Complete Journey</p>
+    <h2>From our first steps to the moments that brought us here.</h2>
+    <p class="journey__lines">
+      <b>Every event is a moment.</b><br/>
+      Every moment becomes a memory.<br/>
+      Together, they become our journey.
+    </p>
+
+
+    <div class="journey__video">
+        <video controls playsinline preload="metadata">
+        <source src="assets/images/title2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+      <svg viewBox="0 0 24 24" fill="none"><path d="M5 5v14l14-7-14-7z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      <span>VitaCore journey video — placeholder<br/>Add the supplied event mashup video file here.</span>
+    </div>
+
+    <p class="journey__after">AND THIS IS ONLY THE BEGINNING.</p>
+  </div>
+</section>
+
+<!-- ============================= MESSAGE TO JUNIORS ============================= -->
+<section class="message">
+  <div class="wrap">
+    <p class="eyebrow">Your Turn</p>
+    <div class="message__lines">
+      <span>You don't have to know everything.</span>
+      <span>You just have to be willing to start.</span>
+      <span class="accent">Learn.</span>
+      <span class="accent">Participate.</span>
+      <span class="accent">Experience.</span>
+      <span class="accent">Create.</span>
+    </div>
+    <p class="message__final">Become part of VitaCore.</p>
+  </div>
+</section>
+
+<!-- ============================= JOIN / QR ============================= -->
+<section id="join" class="join">
+  <!-- doodle: flask -->
+  <svg class="doodle" style="bottom:8%; right:6%; width:70px; height:90px; opacity:.25;" viewBox="0 0 60 80" fill="none" aria-hidden="true">
+    <path d="M24 6h12M27 6v20L14 58a6 6 0 0 0 5.2 9h21.6a6 6 0 0 0 5.2-9L33 26V6" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/>
+    <path d="M18 46h24" stroke="#fff" stroke-width="1.2"/>
+  </svg>
+
+  <div class="wrap">
+    <p class="eyebrow">Ready To Be Part Of It?</p>
+    <h2>Scan. Connect. Explore. Join.</h2>
+    <p class="sub">Scan the QR code to connect with VitaCore.</p>
+    <div class="join__qr"><img src="assets/images/qr.jpeg" alt="VitaCore QR code" /></div>
+    <p class="join__note">The QR leads to VitaCore's official contact / social channel. If it opens a form or a different page for you, confirm the exact destination before presenting this live.</p>
+  </div>
+</section>
+
+<!-- ============================= SOCIAL HUB ============================= -->
+<section class="social">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Stay Connected</p>
+      <h2>Find VitaCore online</h2>
+    </div>
+
+    <div class="social-grid">
+      <a class="social-card reveal" href="https://www.instagram.com/cgcuniversity_vitacore/" onclick="return true;">
+        <img class="social-card__icon" src="assets/images/insta.svg" alt="Instagram" />
+        <h4>Instagram</h4>
+        <p class="social-card__handle placeholder">Handle not yet supplied — add @vitacore handle</p>
+        <span class="social-card__cta">Visit →</span>
+      </a>
+      <a class="social-card reveal" href="https://www.linkedin.com/in/vitacore-cgc-university-6469443a8/" onclick="return true;">
+        <img class="social-card__icon" src="assets/images/linkdin.svg" alt="LinkedIn" />
+        <h4>LinkedIn</h4>
+        <p class="social-card__handle placeholder">Handle not yet supplied — add LinkedIn page URL</p>
+        <span class="social-card__cta">Visit →</span>
+      </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FINAL SCREEN ============================= -->
+<footer class="finale">
+  <div class="wrap">
+    <p class="finale__logo">VITA<span>CORE</span></p>
+    <p class="finale__line">The journey doesn't end here. It starts with you.</p>
+    <p class="finale__meta">Faculty of Allied Health Sciences<br/>CGC University</p>
+
+    <div class="finale__row">
+      <a href="https://www.instagram.com/cgcuniversity_vitacore/" onclick="return true;"><img src="assets/images/insta.svg" alt="Instagram" /></a>
+      <a href="https://www.linkedin.com/in/vitacore-cgc-university-6469443a8/" onclick="return true;"><img src="assets/images/linkdin.svg" alt="LinkedIn" /></a>
+    </div>
+
+    <div class="finale__rule"></div>
+    <p class="finale__sign">See you at the next VitaCore experience.</p>
+  </div>
+</footer>
+
+<!-- ============================= MODAL SHELL ============================= -->
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal__close" aria-label="Close">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+    </button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
